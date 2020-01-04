@@ -2,7 +2,7 @@
 
 
 # Create Your EC2 Resources and Launch Your EC2 Instance
-## Steps To Start With:
+## Steps Involved:
 > Before you can launch and connect to an Amazon EC2 instance For client, make sure you have correct keypair name so that respective team can login into it.
 1. Open the Amazon EC2 console at [https://console.aws.amazon.com/ec2/](https://console.aws.amazon.com/ec2/)
 
