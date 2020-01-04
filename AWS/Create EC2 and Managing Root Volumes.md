@@ -3,7 +3,7 @@
 1. Before you can launch and connect to an Amazon EC2 instance For client, make sure you have correct keypair name so that respective team can login into it.
 2. Open the Amazon EC2 console at [https://console.aws.amazon.com/ec2/](https://console.aws.amazon.com/ec2/)
 
-3. Choose **Launch Instance.
+3. Choose **Launch Instance**.
 
 4. Choose an Amazon Machine Image (AMI), kindly confirm with client regarding which AMI to use and find that Amazon Linux AMI from the list and choose Select.
 
@@ -11,9 +11,9 @@
 
 6. Configure Instance Details, provide the following information:
 
-  - For Network, choose the Correct *VPC name according to enviroment.
+  - For Network, choose the Correct *VPC* name according to enviroment.
 
-  - For Subnet, choose a correct *Subnet in any Availability Zone.
+  - For Subnet, choose a correct *Subnet* in any Availability Zone.
   > Here we need to be sure while making selection in subnet as there will be public and private subnet with different access granted to them by client. confirm from client once.
 
   - For File systems, make sure that you choose correct EFS file system with correct path shown next to the file system ID that is the mount point that the EC2 instance will use.
