@@ -11,7 +11,7 @@
 4. Choose the volume that you want to resize, *right click* on **Modify Volume**
 
 5. You’ll see an option window like this one:
-<img src="icon/ebs1.png" align="left" />
+<img src="icon/ebs1.png" align="centre" />
 
 6. Set the new size for your EBS volume 
 > (let take example to increase it from 8GB volume to 20GB)
