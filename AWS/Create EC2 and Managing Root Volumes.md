@@ -1,4 +1,6 @@
 <img src="icon.png" align="right" />
+
+
 # Create Your EC2 Resources and Launch Your EC2 Instance
 ## Steps To Start With:
 > Before you can launch and connect to an Amazon EC2 instance For client, make sure you have correct keypair name so that respective team can login into it.
