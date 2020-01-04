@@ -1,4 +1,4 @@
-<img src="icon.png" align="right" />
+<img src="icon1.png" align="right" />
 
 
 # Create Your EC2 Resources and Launch Your EC2 Instance
