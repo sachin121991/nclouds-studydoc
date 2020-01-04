@@ -44,7 +44,7 @@
  ```
  
  - Last but not least, we need to extend the filesystem itself. If your filesystem is an ext2, ext3, or ext4, type:
- `[ec2-user ~]$ sudo resize2fs /dev/xvda1`
+ ```[ec2-user ~]$ sudo resize2fs /dev/xvda1```
  
  - If your filesystem is an XFS, then type:
  `[ec2-user ~]$ sudo xfs_growfs /dev/xvda1`
