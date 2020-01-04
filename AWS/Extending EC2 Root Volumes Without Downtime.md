@@ -14,9 +14,9 @@
 <img src="icon/ebs1.png" align="centre" />
 
 6. Set the new size for your EBS volume 
-> (let take example to increase it from 8GB volume to 20GB)
+> Let take example to increase it from 8GB volume to 20GB
 
-7. Click on modify.
+7. Click on **modify**.
 
 ## Now, we need to extend the partition itself.
 
