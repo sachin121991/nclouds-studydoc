@@ -11,13 +11,13 @@
 
 6. Configure Instance Details, provide the following information:
 
-- For Network, choose the entry for the same VPC that you noted when you created your EFS file system in Step 1: Create Your Amazon EFS File System.
+  - For Network, choose the entry for the same VPC that you noted when you created your EFS file system in Step 1: Create Your Amazon EFS File System.
 
-- For Subnet, choose a default subnet in any Availability Zone.
+  - For Subnet, choose a default subnet in any Availability Zone.
 
-- For File systems, make sure that the EFS file system that you created in Step 1: Create Your Amazon EFS File System is selected. The path shown next to the file system ID is the mount point that the EC2 instance will use, which you can change. Choose Add to user data to mount the file system when the EC2 is launched.
+  - For File systems, make sure that the EFS file system that you created in Step 1: Create Your Amazon EFS File System is selected. The path shown next to the file system ID is the mount point that the EC2 instance will use, which you can change. Choose Add to user data to mount the file system when the EC2 is launched.
 
-- Under Advanced Details, confirm that the user data is present in User data.
+  - Under Advanced Details, confirm that the user data is present in User data.
 
 7. Choose Next: Add Storage. kindly confirm with client what type of storage and how much storage required as client is charged for this.
 > Use separate Amazon EBS volumes for the operating system versus your data. Ensure that the volume with your data persists after instance termination. also check if client's want Encrypt EBS volumes.
