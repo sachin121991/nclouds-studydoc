@@ -1,1 +1,1 @@
-<img src="ebs.png" align="centre" />
+<img src="icon/ebs.png" align="centre" />
