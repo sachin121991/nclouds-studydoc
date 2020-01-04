@@ -1,3 +1,6 @@
+<img src="AWS/icon/safety.png" align="right" />
+
+
 ## Important AWS Security Tips
 > Most of the developers and system admins handle Clients Production Env.But,There were many hacking incidents for such accounts which ended up in huge monthly bills. This happens because of many reasons. For example, you may commit your code to a public code repository with your AWS access and secret keys and a hacker would get access to you account and he will launch high capacity instances for his computing needs. This would result in a huge monthly usage bill. You can avoid your account being getting hacked just by applying few security policies and following best practices. 
 1. Create IAM user with admin privileges for you even if you have the root access. Do not use you root account except for billing purposes.
