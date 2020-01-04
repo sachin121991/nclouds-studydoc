@@ -1,4 +1,4 @@
-<img src="AWS/icon/safety.png" align="right" />
+<img src="icon/safety.png" align="right" />
 
 
 ## Important AWS Security Tips
