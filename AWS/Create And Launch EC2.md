@@ -3,7 +3,7 @@
 
 # Create Your EC2 Resources and Launch Your EC2 Instance
 ## Steps Involved:
-> Before you can launch and connect to an Amazon EC2 instance For client, make sure you have correct keypair name so that respective team can login into it.
+> *Before you can launch and connect to an Amazon EC2 instance For client, make sure you have correct keypair name so that respective team can login into it.*
 1. Open the Amazon EC2 console at [https://console.aws.amazon.com/ec2/](https://console.aws.amazon.com/ec2/)
 
 2. Choose **Launch Instance**.
@@ -17,7 +17,7 @@
   - For Network, choose the Correct *VPC* name according to enviroment.
 
   - For Subnet, choose a correct *Subnet* in any Availability Zone.
-  > Here we need to be sure while making selection in subnet as there will be public and private subnet with different access granted to them by client. confirm from client once.
+  > *Here we need to be sure while making selection in subnet as there will be public and private subnet with different access granted to them by client. confirm from client once.*
 
   - For File systems, make sure that you choose correct EFS file system with correct path shown next to the file system ID that is the mount point that the EC2 instance will use.
 
@@ -31,7 +31,7 @@
 8. Name your instance and choose Next: **Configure Security Group**.
 
 - Configure Security Group, set Assign a security group to Select an existing security group. 
-> please be very sure while chosing security group on prod env. as u are about to give access to diff. users and service to this ec2
+> *Please be very sure while chosing security group on prod env. as u are about to give access to diff. users and service to this ec2*
 
 9. Choose **Review and Launch**.
 
